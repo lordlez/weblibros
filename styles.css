@@ -1,0 +1,207 @@
+/*Estilos de la pantalla de registro*/
+
+.fondo{
+    background-color: #C5C5C5;
+}
+
+/*Comienza el header*/
+
+.header{
+    background-color: grey;
+    height: 90px;
+}
+
+.nav{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inicio{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.novedades{
+    margin-top: 10px;
+}
+
+.login{
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.datos-login{
+    flex-direction: column;
+    display: flex;
+}
+
+.inicio-boton{
+    font-size: 50px;
+    border: black;
+    border-radius: 50px;
+    background-color: #BEBEBE;
+}
+
+.novedades-boton{
+    font-size: 50px;
+    border: black;
+    border-radius: 50px;
+    background-color: #BEBEBE;
+}
+
+.login-boton{
+    font-size: 50px;
+    border: black;
+    border-radius: 50px;
+    background-color: #BEBEBE;
+}
+
+/*Finaliza el Header*/
+
+/*Comienza la seccion de busqueda*/
+
+.abecedario{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abecedario-contenedor{
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.abecedario a{
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.abecedario a:hover {
+  text-decoration: underline;
+}
+
+
+.busqueda{
+    display: flex;
+}
+
+.busqueda-contenedor{
+    padding: 20px 20px 20px 20px;
+    margin-left: 50;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.busqueda-contenedor button{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.busqueda-texto{
+    margin-left: 100px;
+    color: grey;
+}
+
+.lupa{
+    width: 40px;
+    height: 40px;
+    padding-left: 450px;
+    margin-top: 15px;
+}
+
+.lupa-texto{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Finaliza la seccion de busqueda*/
+
+/*Comienza la seccion de registro*/
+
+.registro{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.registro h2{
+    color: gray;
+}
+
+.registro-contenedor{
+    border: 2px solid black;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    align-items: center;
+    background-color: #BEBEBE;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nickname{
+    font-size: 25px;
+}
+
+.password{
+    font-size: 25px;
+}
+
+.email{
+    font-size: 25px;
+}
+
+.boton-registrar{
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+/*Finaliza la seccion de registro*/
+
+/*Comienza la seccion de footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.footer a {
+    color: grey;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+/*Finaliza la seccion de footer*/
+
+
+/*Finaliza pantalla de registro*/
